@@ -1,0 +1,11 @@
+body {
+  background-color: gray;
+  color: orange;
+
+}
+img { height:50px;
+width:50px;
+}
+.list { background-color: red;
+color: white;
+}
