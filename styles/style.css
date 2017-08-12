@@ -14,8 +14,17 @@ nav {
   position: fixed;
   top: 0;
   left: 0;
-  height: 1.3em;
+  height: auto;
   width: 100vw;
+}
+
+nav>ul.container {
+  //these styles will extend the styles already contained in the .container class
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
 }
 
 nav li {
@@ -27,6 +36,20 @@ header {
   margin-top: 1.3em;
 }
 
-.container { margin-top: 100px;}
+.container { margin-top: 50px;
+overflow: auto;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+#content {
+  float: left;
+  width: 75%;
+}
+
+#sidebar {
+  width: 25%;
+  float: left;}
+
 
 fieldset { border-color: black;}
