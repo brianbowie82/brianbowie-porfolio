@@ -9,3 +9,24 @@ width:50px;
 .list { background-color: red;
 color: white;
 }
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 1.3em;
+  width: 100vw;
+}
+
+nav li {
+  display: inline;
+  list-style-type: none;
+}
+
+header {
+  margin-top: 1.3em;
+}
+
+.container { margin-top: 100px;}
+
+fieldset { border-color: black;}
