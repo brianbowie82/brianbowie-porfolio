@@ -1,10 +1,12 @@
 body {
-  background-color: gray;
-  color: orange;
+  background-color: white;
+  color: black;
 
 }
-img { height:50px;
+img { margin-top: 50px;
+   height:50px;
 width:50px;
+border-radius: 50%;
 }
 .list { background-color: red;
 color: white;
@@ -18,8 +20,15 @@ nav {
   width: 100vw;
 }
 
-nav>ul.container {
-  //these styles will extend the styles already contained in the .container class
+
+
+nav li {
+  display: inline;
+  list-style-type: none;
+}
+
+
+nav>.ulcontainer {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -27,29 +36,37 @@ nav>ul.container {
   align-items: center;
 }
 
-nav li {
-  display: inline;
-  list-style-type: none;
-}
+#greeting { background-color: pink;}
+
+.profile-pic { margin-top: 100px; height: 100px; width: 100px border-radius
+50%;}
 
 header {
   margin-top: 1.3em;
 }
 
-.container { margin-top: 50px;
+#list {background-color: red; color: blue}
+
+a { background-color: transparent;}
+
+.container {
+  margin-top: 100px;
 overflow: auto;
-  max-width: 960px;
-  margin: 0 auto;
 }
 
-#content {
-  float: left;
-  width: 75%;
+.content-area {
+
+  /*float: left;*/
+  /*width: 70%;*/
 }
 
-#sidebar {
-  width: 25%;
-  float: left;}
+.field-3 { border-color: black;}
+.subscribe {background-color: lightblue;}
+
+.sidebar {
+  /*width: 30%;*/
+  /*float: left; background-color: black;}*/
+
 
 
 fieldset { border-color: black;}

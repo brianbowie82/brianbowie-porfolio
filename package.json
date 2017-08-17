@@ -1,0 +1,23 @@
+{
+  "name": "brianbowie",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brianbowie82/brianbowie-porfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brianbowie82/brianbowie-porfolio/issues"
+  },
+  "homepage": "https://github.com/brianbowie82/brianbowie-porfolio#readme",
+  "description": ""
+}

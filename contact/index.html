@@ -8,6 +8,9 @@
 
 
   <title>Document</title>
+
+  <link rel="stylesheet" href="node_modules\bootstrap\dist\css\bootstrap.css">
+
 <link rel="stylesheet" href="../styles/style.css">
 
 
@@ -34,16 +37,20 @@
       The method attribute specifies the HTTP method (GET or POST)
     -->
 
-    <fieldset>
-
+    <fieldset class="field-3">
+      <legend>About Me</legend>
+<div class="subscribe">
      <input type="text" name="firstname" placeholder="First Name" size="100" autofocus required>
      <input type="text" name="lastname" placeholder="Last Name" size="100" required>
      <br>
      <input type="email" name="userEmail" placeholder="your.email@example.com" required>
-
+</div>
     </fieldset>
 
-    <fieldset>
+    <fieldset class="field-3">
+      <div class="subscribe field-3">
+
+
       <legend>Subscribe</legend>
       <label for="">
       What's this message about?
@@ -51,16 +58,20 @@
       <input type="radio" name="subject" value="personal"checked><span>Personal message</span>
       <input type="radio" name="subject" value="other" checked><span>Don't know/something else</span>
       </label>
+      </div>
     </fieldset>
 
-<fieldset>
+<fieldset class="field-3">
 
       <legend>Newsletter</legend>
+      <div class="subscribe field-3">
       <input type="checkbox" name="option" value="trusting" checked>Subscribe me to your newsletter!
       <input type="checkbox" name="optout" value="skeptical" disabled>Cheeky checkbox...
+    </div>
       </fieldset>
 
-<fieldset>
+<fieldset class="field-3">
+  <div class="subscribe field-3">
       <legend>Marketing</legend>
       <label for="Marketing">How did hear about me?</label>
       <select class="" name="marketing">
@@ -78,14 +89,15 @@
        <option value="other">Other</option>
 
       </select>
+    </div>
 </fieldset>
 
       <textarea name="user_message" rows="8" cols="40"> </textarea>
 
-      <input type="email" name="" value="">
 
 
-      <input type="submit">
+
+      <input type="submit" class="btn btn-lg">
 </form>
 
 </div>
