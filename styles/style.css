@@ -36,6 +36,8 @@ nav>.ulcontainer {
   align-items: center;
 }
 
+.projects {margin-top: 50px;}
+
 #greeting { background-color: pink;}
 
 .profile-pic { margin-top: 100px; height: 100px; width: 100px border-radius
