@@ -3,7 +3,7 @@ var stringPrinter = function( starterString ){
 }
 
 var funnySentence = function( noun, adjective, verb, adverb ){
-  var sentence = `The ${adjective} ${noun} ${verb} ${adverb}.`
+  var sentence = `<p>The ${adjective} ${noun} ${verb} ${adverb}.</p>`
 stringPrinter(sentence) }
 
 
@@ -43,3 +43,45 @@ funnySentence( randomWordObject.randomNoun, randomWordObject.randomAdjective,
 }
 
 autoFunnySentence()
+
+
+
+var fn = function () {
+  console.log('heyyyy')
+}
+
+document.querySelector('#target').addEventListener('click', fn)
+document.querySelector('#target').addEventListener('click', function() {
+  console.log('same deal')
+})
+
+$('div').on('click', function() { console.log('A div has been clicked!')})
+
+$('div').on('click', function(){
+  console.log('A div has been clicked!')
+})
+
+// shortcut
+$('p').click(function(){
+  $('p').show().css('color', 'red').text('boom goes the dynamite!')
+})
+
+
+// $('li').on('mouseover', function(){
+//   var target= event.target
+//   console.log(event)
+//   $(target).addClass('highlighted')
+// })
+// $('li').on('mouseleave', function(){
+//   var target= event.target
+//   $(target).removeClass('highlighted')
+// })
+
+
+
+$('li').on('mouseover', function(){
+  $(this).addClass('highlighted')
+})
+$('li').on('mouseleave', function(){
+  $(this).removeClass('highlighted')
+})

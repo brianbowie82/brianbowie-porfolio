@@ -67,8 +67,8 @@ overflow: auto;
 
 .sidebar {
   /*width: 30%;*/
-  /*float: left; background-color: black;}*/
+/*float: left; background-color: black;}*/}
 
-
+.highlighted {color: red;}
 
 fieldset { border-color: black;}
